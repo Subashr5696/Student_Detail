@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Demo</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/icon" href="images/fav-icon.png">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	
+	<div class="login">
+		<div class="login-bg">
+			<div class="container">
+				<div class="vertical-space-100"></div>
+				<div class="login-box">
+					<div class="Signin-account">					
+						<h3 class="text-center">Login Now</h3>
+						<div class="vertical-space-30"></div>
+						<div class="input-box">
+							<div class="input-group">
+							    <div class="input-group-addon">
+							        <i class="fa fa-user"></i>
+							    </div>
+							    <input type="text" name="Email" class="form-control" placeholder="Email">
+							</div>
+						</div>
+						<div class="input-box">
+							<div class="input-group">
+							    <div class="input-group-addon">
+							        <i class="fa fa-lock"></i>
+							    </div>
+							    <input type="password" name="Password" class="form-control" placeholder="Password">
+							</div>
+						</div>
+						<div class="input-box checkbox">
+							<button id="forget-btn">Forget Password?</button>
+						</div>
+						<div class="btn-box">
+							<div class="vertical-space-5"></div>
+							<a href="enter-details.html" class="btn btn-df"><span>Login</span></a>
+							<div class="vertical-space-10"></div>
+							<p class="text-center">Don't have an account? <a href="#">Register Now</a></p>
+						</div>
+					</div>
+					<div class="forget-password display-none">
+						<h3 class="text-center">Forget Password</h3>
+						<div class="vertical-space-30"></div>
+						<div class="input-box">
+							<div class="input-group">
+							    <div class="input-group-addon">
+							        <i class="fa fa-lock"></i>
+							    </div>
+							    <input type="text" name="Password" class="form-control" placeholder="Old Password">
+							</div>
+						</div>
+						<div class="input-box">
+							<div class="input-group">
+							    <div class="input-group-addon">
+							        <i class="fa fa-lock"></i>
+							    </div>
+							    <input type="text" name="Password" class="form-control" placeholder="New Password">
+							</div>
+						</div>
+						<div class="input-box">
+							<div class="input-group">
+							    <div class="input-group-addon">
+							        <i class="fa fa-lock"></i>
+							    </div>
+							    <input type="text" name="Password" class="form-control" placeholder="Confirm Password">
+							</div>
+						</div>
+						<div class="btn-box">
+							<div class="vertical-space-10"></div>
+							<ul class="list-unstyled row">
+								<li class="col-xs-6"><a href="enter-details.html" class="btn btn-df"><span>Save</span></a></li>
+								<li class="col-xs-6"><a href="enter-details.html" class="btn btn-df"><span>Clear</span></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="vertical-space-10"></div>
+				</div>
+				<div class="vertical-space-60"></div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/home-script.js"></script>
+	<script>
+
+		$(document).ready(function(){
+		  	$("#forget-btn").click(function(){
+		    	$(".Signin-account").fadeToggle(0);
+		    	$(".forget-password").fadeToggle(0);
+		  	});
+		});
+		$(document).ready(function(){
+		  	$("#edit-cancel-btn").click(function(){
+		    	$(".edit-address").fadeToggle();
+		    	$(".my-address-box").fadeToggle();
+		  	});
+		});
+
+	</script>
+
+</body>
+</html>

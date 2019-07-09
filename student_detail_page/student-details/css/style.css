@@ -1,0 +1,541 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #0b385d;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+.bg-color{ background-color: #F0F0F0; }
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3333336b; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.flex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+.full-width {
+	width: 100%;
+}
+.display-none {
+	display: none;
+}
+.df-color {
+	color: #33CC7B;
+}
+.df-bg-color {
+	background-color: #33CC7B;
+}
+.df-font-color {
+	color: #0b385d;
+}
+.pd-0 {
+	padding: 0!important;
+}
+.mr-0 {
+	margin: 0;
+}
+p {
+	font-size: 14px;
+}
+.br-1 {
+	margin: 5px 0 10px;
+	background-color: #ccc;
+	height: 1px;
+}
+.br-2 {
+	margin: 5px 0 10px;
+	background-color: #ccc;
+	height: 2px;
+}
+.float-right {
+	float: right;
+}
+.float-left {
+	float: left;
+}
+.font-bold {
+	font-weight: bold;
+}
+.vertical-space-5 {
+	display: inline-block;
+	width: 100%;
+	height: 5px;
+}
+.vertical-space-10 {
+	display: inline-block;
+	width: 100%;
+	height: 10px;
+}
+.vertical-space-15 {
+	display: inline-block;
+	width: 100%;
+	height: 15px;
+}
+.vertical-space-20  {
+	display: inline-block;
+	width: 100%;
+	height: 20px;
+}
+.vertical-space-30 {
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+}
+.vertical-space-40  {
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+}
+.vertical-space-50 {
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+}
+.vertical-space-60 {
+	display: inline-block;
+	width: 100%;
+	height: 60px;
+}
+.vertical-space-70 {
+	display: inline-block;
+	width: 100%;
+	height: 70px;
+}
+.vertical-space-80 {
+	display: inline-block;
+	width: 100%;
+	height: 80px;
+}
+.vertical-space-90 {
+	display: inline-block;
+	width: 100%;
+	height: 90px;
+}
+.vertical-space-100 {
+	display: inline-block;
+	width: 100%;
+	height: 100px;
+}
+.vertical-space-120 {
+	display: inline-block;
+	width: 100%;
+	height: 120px;
+}
+.btn-df {
+    border: 0px solid #f0ad00;
+    font-family: inherit;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+    overflow: hidden;
+    height: 50px;
+	padding: 14px 30px;
+	color: #0b385d;
+	font-weight: bold;
+	font-size: 16px;
+	background: #ffbc00;
+	border-radius: 3px;
+}
+.btn-df span {
+	position: relative;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+	z-index: 0;
+}
+.btn-df:hover span {
+	color: #ffbc00;
+	z-index: 2;
+}
+.btn-df:after {
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #0b385d;
+    opacity: 0;
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+}
+.btn-df:hover:after {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: 0;
+}
+
+.login {
+	width: 100%;
+	float: left;
+	min-height: 100%;
+	background: url("../images/apple-cup-desk-7974.jpg") no-repeat fixed center center #3b3b3b;
+	position: absolute;
+	background-position: center;
+	background-size: cover;
+}
+.login-bg {
+	width: 100%;
+	float: left;
+	background-color: #00000070;
+	min-height: 100%;
+	position: absolute;
+}
+.login h3 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+.login .login-box {
+	width: 40%;
+	margin: 0 auto;
+    padding: 20px 40px;
+    border-radius: 0px;
+    background-color: #00000080;
+    color: #FFF;
+}
+.login .login-box p a img {
+	height: 40px;
+	margin: 0 auto;
+}
+.login .login-box .input-box {
+	width: 100%;
+	float: left;
+}
+.login .login-box .input-box .input-group {
+    width: 100%;
+    float: left;
+    border-radius: 0px;
+    background-color: #ffffff40;
+    color: #ffbc00;
+    height: 45px;
+    box-shadow: none;
+    margin-bottom: 20px;
+}
+.login .login-box .input-box .input-group .input-group-addon {
+    background-color: transparent;
+    border: 0px;
+    font-size: 20px;
+    padding-right: 0px;
+    color: #ffbc00;
+}
+.login .login-box .input-box .input-group input {
+	border: 0px;
+	height: 45px;
+	box-shadow: none;
+	background-color: transparent; 
+	color: #FFF;
+}
+.login .login-box .input-box.checkbox button {
+	float: right;
+	background-color: transparent;
+	border: 0px;
+	color: #FFF;
+}
+.login .login-box .btn-box {
+	width: 100%;
+    float: left;
+    text-align: center;
+}
+.login .login-box .btn-box .btn-df {
+	width: 50%;
+	font-weight: bold;
+	height: 45px;
+	padding: 12px 30px;
+	border-radius: 0px;
+} 
+.login .login-box .btn-box .btn-df:hover {
+	background-color: transparent;
+}
+.login .login-box .btn-box .btn-df:hover span {
+	color: #FFF;
+	font-weight: normal;
+}
+.login .login-box .btn-box .btn-df:after {
+	background-color: #ffffff40;
+}
+.login .login-box .btn-box p a {
+	color: #ffbc00;
+}
+.login .login-box .forget-password .btn-box .btn-df {
+	width: 100%;
+}
+
+.enter-details {
+	width: 100%;
+	float: left;
+	min-height: 100%;
+	background: url("../images/apple-black-coffee-coffee-461064.jpg") no-repeat fixed center center #3b3b3b;
+	position: absolute;
+	background-position: center;
+	background-size: cover;
+}
+.enter-details .enter-details-box {
+	width: 100%;
+	float: left;
+	background-color: #00000070;
+	color: #FFF;
+}
+.enter-details .enter-details-box h3 {
+	margin-top: 0px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.enter-details .enter-details-box .input-box {
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+}
+.enter-details .enter-details-box label {
+	font-weight: normal;
+}
+.enter-details .enter-details-box input, .enter-details .enter-details-box select, .enter-details .enter-details-box #age_container {
+	border: 0px;
+	height: 40px;
+	box-shadow: none;
+	background-color: #FFF;
+	color: #333;
+	border-radius: 0px;
+	padding: 10px;
+}
+.enter-details .enter-details-box textarea {
+	border: 0px;
+	height: 100px;
+	box-shadow: none;
+	background-color: #FFF;
+	border-radius: 0px;
+	padding: 12px;		
+}
+.enter-details .enter-details-box .btn-box .btn-df {
+	width: 100%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 0px;
+    font-size: 14px;
+}
+.enter-details .enter-details-box .btn-box .btn-df:after {
+	background-color: #ab7b2a;
+}
+.enter-details .enter-details-box .btn-box .btn-df:hover span {
+	color: #FFF;
+}
+.enter-details .enter-details-box .enter-details-img {
+	background-image: url("../images/background-black-coffee-cactus-951228.jpg");
+	position: relative;
+	background-position: center;
+	background-size: cover;
+}
+
+.list-of-students {
+	width: 100%;
+	float: left;
+	min-height: 100%;
+	background: url("../images/background-black-coffee-cactus-951228.jpg") no-repeat fixed center center #3b3b3b;
+	position: absolute;
+	background-position: center;
+	background-size: cover;
+}
+.list-of-students .list-of-students-box {
+	width: 100%;
+	float: left;
+	padding: 30px 50px;
+	background-color: #00000070;
+}
+.list-of-students .list-of-students-box .students-box {
+	width: 100%;
+	float: left;
+	padding: 15px;
+	background-color: #00000070;
+	box-shadow: 0px 0px 5px #ccc;
+}
+.list-of-students .list-of-students-box .students-box .img-box {
+	width: 100%;
+	height: 80px;
+	text-align: center;
+}
+.list-of-students .list-of-students-box .students-box .img-box img {
+	height: 100%;
+}
+.list-of-students .list-of-students-box .students-box .detail {
+	text-align: center;
+}
+.list-of-students .list-of-students-box table {
+	background-color: #FFF;
+	margin: 0px;
+}
+.list-of-students .list-of-students-box table td img {
+	height: 80px;
+	border-radius: 5px;
+}
+.list-of-students .list-of-students-box .table>thead>tr>th,.list-of-students .list-of-students-box .table>tbody>tr>td,
+.list-of-students .list-of-students-box .table>tbody>tr>th,.list-of-students .list-of-students-box .table>tfoot>tr>td,
+.list-of-students .list-of-students-box .table>tfoot>tr>th,.list-of-students .list-of-students-box .table>thead>tr>td,
+.list-of-students .list-of-students-box .table>thead>tr>th {
+	border: 0px;
+	padding: 15px;
+}
+.list-of-students .list-of-students-box .table>thead>tr>th {
+    background-color: #90dfaa;
+    color: #0b4051;
+}
+.list-of-students .list-of-students-box .table>tbody>tr>td .btn {
+	border-radius: 0px;
+    float: right;
+    height: 40px;
+    padding: 10px 30px;
+    font-size: 14px
+}
+.page-numbers {
+	text-align: center;
+}
+.page-numbers .pagination {
+	margin: 10px 0;
+}
+.page-numbers .pagination a {
+	padding: 11px 0;
+    line-height: 9px;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    background-color: #FFF;
+    color: #273647;
+    float: left;
+    text-align: center;
+    border-radius: 50%;
+    margin: 5px;
+    text-decoration: none;
+}
+.page-numbers .pagination a:hover {
+	background-color: #e5e5e5;
+}
+.page-numbers .pagination a.active {
+	background-color: #ffd200;
+}
+
+.student-detail {
+	width: 100%;
+	float: left;
+	min-height: 100%;
+	overflow: auto;
+	background: url("../images/background-black-coffee-cactus-951228.jpg") no-repeat fixed center center #3b3b3b;
+	position: absolute;
+	background-position: center;
+	background-size: cover;
+}
+.student-detail .student-detail-box {
+	width: 100%;
+	float: left;
+	background-color: #FFF;
+	padding: 30px 50px;
+}
+.student-detail .student-detail-box .img-box {
+	width: 100%;
+	float: left;
+}
+.student-detail .student-detail-box .detail {
+	padding-left: 30px;
+}
+.student-detail .student-detail-box .detail .detail-box {
+	width: 100%;
+	float: left;
+}
+.student-detail .student-detail-box .detail .detail-box label {
+	font-size: 14px;
+	font-weight: normal;
+}
+.student-detail .student-detail-box .detail .detail-box h3 {
+	margin-top: 0px;
+	font-weight: bold;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.student-detail .student-detail-box .detail .detail-box address {
+	font-weight: bold;
+	line-height: 26px;
+}
+.student-detail .student-detail-box .detail .detail-box h4 {
+	margin-top: 0px;
+	margin-bottom: 30px;
+	font-size: 16px;
+	font-weight: bold;
+}
+#calculate {
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #999;
+    border-radius: 10px;
+    background: #FFD119;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFD119), to(#E6B800));
+	background: -moz-linear-gradient(top, #FFD119, #E6B800);
+    font-weight: bold;
+    height: 28px;
+    box-shadow: 0 -8px inset;
+}
+
+#calculate:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#E6B800), to(#FFD119));
+	background: -moz-linear-gradient(top, #E6B800, #FFD119);
+    margin-top: 13px;
+    height: 25px;
+    box-shadow: 0 -5px inset;
+}
+
+#calculate:active {
+    background: #403300;
+    padding-top: 10px;
+    height: 20px;
+    box-shadow: 0 5px #000 inset;
+}
+.frmDronpDown {
+    border: 1px solid #7ddaff;
+    background-color: #C8EEFD;
+    margin: 2px 0px;
+    padding: 40px;
+    border-radius: 4px;
+}
+
+.demoInputBox {
+    padding: 10px;
+    border: #bdbdbd 1px solid;
+    border-radius: 4px;
+    background-color: #FFF;
+    width: 50%;
+}
+

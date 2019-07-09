@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Demo</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/icon" href="images/fav-icon.png">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-datepicker.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	
+	<div class="enter-details">
+		<div class="enter-details-bg">
+			<div class="container">
+				<div class="vertical-space-60"></div>
+				<div class="enter-details-box flex">
+					<div class="col-md-6 float-left">
+						<div class="vertical-space-30"></div>
+						<h3 class="text-center">Enter Student Details</h3>
+						<div class="vertical-space-10"></div>
+						<div class="input-box">
+							<label class="col-xs-4">Name</label>
+							<div class="col-xs-8">
+							    <input type="text" name="Name" class="form-control textOnly">
+							</div>
+						</div>
+						<div class="input-box">
+							<label class="col-xs-4">Photo</label>
+							<div class="col-xs-8">
+							    <input type="file" name="pic" accept="image/*" class="form-control">
+							</div>
+						</div>
+						<div class="input-box">
+							<label class="col-xs-4">Date of birth</label>
+							<div class="col-xs-8 birth-date">
+						        <div id="birth_date_input"><input type="date" class="form-control" id="birth_date"></div>
+							</div>
+						</div>
+						<div class="input-box">
+							<label class="col-xs-4">Age</label>
+							<div class="col-xs-8">
+						        <div id="age_container"><span id="exact_age">Age</span></div>
+							</div>
+						</div>
+						<div class="input-box">
+							<label class="col-xs-4">Address 1</label>
+							<div class="col-xs-8">
+							    <textarea class="form-control"></textarea>
+							</div>
+						</div>
+						<div class="input-box">
+							<label class="col-xs-4">State</label>
+							<div class="col-xs-8">
+							    <select class="form-control">
+									<option>State</option>
+									<option>Andhra Pradesh</option>
+									<option>Arunachal Pradesh</option>
+									<option>Assam</option>
+									<option>Bihar</option>
+									<option>Chhattisgarh</option>
+									<option>Goa</option>
+									<option>Gujarat</option>
+									<option>Haryana</option>
+									<option>Himachal Pradesh</option>
+									<option>Jammu and Kashmir</option>
+									<option>Jharkhand</option>
+									<option>Karnataka</option>
+									<option>Kerala</option>
+									<option>Madhya Pradesh</option>
+									<option>Maharashtra</option>
+									<option>Manipur</option>
+									<option>Meghalaya</option>
+									<option>Mizoram</option>
+									<option>Nagaland</option>
+									<option>Odisha</option>
+									<option>Punjab</option>
+									<option>Rajasthan</option>
+									<option>Sikkim</option>
+									<option>Tamil Nadu</option>
+									<option>Telangana</option>
+									<option>Tripura</option>
+									<option>Uttar Pradesh</option>
+									<option>Uttarakhand</option>
+									<option>West Bengal</option>
+								</select>
+							</div>
+						</div>
+						<div class="input-box">
+							<label class="col-xs-4">City</label>
+							<div class="col-xs-8">
+							    <select class="form-control">
+									<option>City</option>
+									<option>Chennai</option>
+									<option>Ooty</option>
+									<option>Coonoor</option>
+									<option>Tanjore</option>
+									<option>Mahabalipuram</option>
+									<option>Kodaikanal</option>
+									<option>Madurai</option>
+									<option>Kanyakumari</option>
+									<option>Trichy</option>
+									<option>Coimbatore</option>
+									<option>Dharmapuri</option>
+									<option>Kancheepuram</option>
+									<option>Chettinad</option>
+									<option>Kumbakonam</option>
+									<option>Krishnagiri</option>
+									<option>Poompuhar</option>
+									<option>Puddukottai</option>
+									<option>Rameswaram</option>
+									<option>Sivagangai</option>
+									<option>Theni</option>
+									<option>Tirunelveli</option>
+									<option>Thoothukudi</option>
+									<option>Tiruvarur</option>
+									<option>Velankanni</option>
+									<option>Vellore</option>
+									<option>Virudhunagar</option>
+									<option>Tiruvannamalai</option>
+									<option>Andhra Pradesh</option>
+								</select>
+							</div>
+						</div>
+						<div class="input-box">
+							<label class="col-xs-4">Pincode</label>
+							<div class="col-xs-8">
+							    <input type="text" name="Pincode" class="form-control numbersOnly">
+							</div>
+						</div>
+						<div class="btn-box">
+							<div class="vertical-space-5"></div>
+							<label class="col-xs-4"></label>
+							<div class="col-xs-8">
+								<ul class="list-unstyled row">
+									<li class="col-xs-6"><a href="list-of-students.html" class="btn btn-df"><span>Submit</span></a></li>
+									<li class="col-xs-6"><a href="list-of-students.html" class="btn btn-df"><span>Cancel</span></a></li>
+								</ul>
+							</div>
+							<div class="vertical-space-10"></div>
+						</div>
+					</div>
+					<div class="col-md-6 enter-details-img float-left"></div>
+				</div>
+				<div class="vertical-space-60"></div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/bootstrap-datepicker.js"></script>
+	<script src="js/home-script.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		    $("body").click(function(){
+		        var mdate = $("#birth_date").val().toString();
+		        var yearThen = parseInt(mdate.substring(0,4), 10);
+		        var monthThen = parseInt(mdate.substring(5,7), 10);
+		        var dayThen = parseInt(mdate.substring(8,10), 10);
+		        
+		        var today = new Date();
+		        var birthday = new Date(yearThen, monthThen-1, dayThen);
+		        
+		        var differenceInMilisecond = today.valueOf() - birthday.valueOf();
+		        
+		        var year_age = Math.floor(differenceInMilisecond / 31536000000);
+		        var day_age = Math.floor((differenceInMilisecond % 31536000000) / 86400000);
+		        
+		        var month_age = Math.floor(day_age/30);
+		        
+		        day_age = day_age % 30;
+		        
+		        if (isNaN(year_age) || isNaN(month_age) || isNaN(day_age)) {
+		            $("#exact_age").text("Age");
+		        }
+		        else {
+		            $("#exact_age").html("<span id=\"age\">" + year_age + "</span>");
+		        }
+		    });
+		});
+
+		$('.numbersOnly').keyup(function () {
+		    if (this.value != this.value.replace(/[^0-9\.]/g, '')) {
+		       this.value = this.value.replace(/[^0-9\.]/g, '');
+		    }
+		});
+		jQuery('.textOnly').keyup(function () { 
+		    this.value = this.value.replace(/[^a-z A-Z\.]/g,'');
+		});
+
+	</script>
+
+</body>
+</html>
